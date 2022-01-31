@@ -884,11 +884,6 @@ p {
     .team-item {
         width: 100%;
     }
-    .home-section .home-bg {
-        width: 100%;
-        height: 100%;
-        animation: none;
-    }
     .footer {
         background-color: var(--dark-light);
         background-image: none;
