@@ -848,8 +848,8 @@ p {
         width: 100%;
     }
     .home-section .home-bg {
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: auto;
         animation: none;
     }
     .menu-item:nth-last-of-type(2):after {
@@ -861,7 +861,6 @@ p {
     .about-text h3 {
         font-size: 24px;
     }
-    /* stestsefsef */
     .footer-item {
         width: 100%;
     }
