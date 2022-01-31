@@ -850,7 +850,6 @@ p {
     .home-section .home-bg {
         background-image: url('../img/home-bg-mobile.jpg');
         background-size: 700px;
-        height: 100%;
         animation: none;
         background-repeat: no-repeat;
     }
