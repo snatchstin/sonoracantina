@@ -848,8 +848,8 @@ p {
         width: 100%;
     }
     .home-section .home-bg {
-        width: 100%;
-        height: 100%;
+        width: 50%;
+        height: 50%;
         animation: none;
     }
     .menu-item:nth-last-of-type(2):after {
@@ -882,12 +882,6 @@ p {
 @media(max-width:575px) {
     .team-item {
         width: 100%;
-    }
-    .home-section .home-bg {
-        width: 100%;
-        height: 100%;
-        animation: none;
-        background-image: none;
     }
     .about-text h3 {
         font-size: 15px;
