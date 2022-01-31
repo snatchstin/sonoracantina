@@ -849,7 +849,7 @@ p {
     }
     .home-section .home-bg {
         background-image: url('../img/home-bg-mobile.jpg');
-        background-attachment: unset;
+        background-attachment: scroll;
         background-size: 700px;
         animation: none;
         background-repeat: no-repeat;
