@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dine Out - Restaurant</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="logo">
+                    <a href="#"><img src="img/logo2.png" alt="logo"></a>
+                </div>
+                <button type="button" class="nav-toggler">
+          <span>
+
+          </span>
+        </button>
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-item"><a href="#home">Home</a></li>
+                        <li class="nav-item"><a href="#about">About Us</a></li>
+                        <li class="nav-item"><a href="#our-menu">Our Menu</a></li>
+                        <li class="nav-item"><a href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a href="#team">Team</a></li>
+                        <li class="nav-item"><a href="#footer">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- home section start  -->
+    <section class="home-section" id="home">
+        <div class="home-bg"></div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="home-text">
+                    <h1>Sonora Cantina</h1>
+                    <p>Festive Mexican eatery serving breakfast, tortas & classic entrees in a colorful space.</p>
+                    <a href="#our-menu" class="btn btn-default">Our Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+
+    <div class="about-section sec-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="our story">About Us</h2>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="about-text">
+                    <h3>Welcome to Sonora Cantina!</h3>
+                    <p>Festive Mexican eatery serving breakfast, tortas & classic entrees in a colorful space. Established in 1990, Sonora Cantina has been serving Big Bear Lake residents for over 30 years now! We're on the boulevard, with outdoor and indoor
+                        seating available.</p>
+                    <p> We are happy to answer all of your quetions by pohone during our business hours or through email after hours! Due to COVID-19 we are experiencing a high volume of calls. Please be patient and our staff will do their best to attend
+                        to every customer! Follow our socials for day to day updates!</p>
+                    <p><i>To go orders can be made in person or over the phone, and we are currently not accepting reservations at this time. Thank you.</i></p>
+                    <a href="#our-menu" class="btn btn-default">Check Our Menu</a>
+                </div>
+                <div class="about-img">
+                    <div class="img-box">
+                        <h3>30+ years experience</h3>
+                        <img src="img/about-img.jpg" alt="about img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about section end -->
+
+    <!-- menu section start -->
+
+    <section class="menu-section sec-padding" id="our-menu">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Order Now">Our Menu</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="menu-tabs">
+                    <button type="button" class="menu-tab-item active" data-target="#breakfast">Breakfast</button>
+                    <button type="button" class="menu-tab-item" data-target="#appetizers">Appetizers</button>
+                    <button type="button" class="menu-tab-item dropbtn" data-button="dinner-content">Dinner</button>
+                    <button type="button" class="menu-tab-item dropbtn" data-button="combo-content">Combos</button>
+                    <button type="button" class="menu-tab-item" data-target="#desserts">Dessert</button>
+                    <button type="button" class="menu-tab-item" data-target="#drinks">Drinks</button>
+                    <button type="button" class="menu-tab-item" data-target="#kids-menu">Kids Menu</button>
+
+
+                    <div class="dropdown">
+                        <!-- <button onclick="myFunction()" class="dropbtn">Dinner</button> -->
+                        <div id="comboDrop" class="combo-content">
+                            <button type="button" class="menu-tab-item dropbtn" data-target="#house-combos">House Combos</button>
+                            <button type="button" class="menu-tab-item dropbtn" data-target="#tra-mex-combo">Traditional Mexican
+                Combos</button>
+                            <button type="button" class="menu-tab-item dropbtn" data-target="#cyo-combo">Create Your Own
+                Combo</button>
+                        </div>
+                        <div id="dinnerDrop" class="dinner-content">
+                            <button type="button" class="menu-tab-item dropbtn" data-target="#a-la-cart">A La Cart</button>
+                            <button type="button" class="menu-tab-item dropbtn" data-target="#house-soups">House Soups</button>
+                            <button type="button" class="menu-tab-item dropbtn" data-target="#fiesta-salads">Fiesta Salads</button>
+                            <button type="button" class="menu-tab-item dropbtn" data-target="#tostadas">Sombrero Tostadas</button>
+                            <button type="button" class="menu-tab-item dropbtn" data-target="#tortas">Tortas</button>
+                            <button type="button" class="menu-tab-item dropbtn" data-target="#side-orders">Side Orders</button>
+                            <button type="button" class="menu-tab-item dropbtn" data-target="#extras">Extras</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-tab-content active" id="breakfast">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <!-- <img src="img/menu/1.jpg" alt="menu item thumbnail"> -->
+                        <h3>Lunch</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $40.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail">
+                        <h3>Lunch</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $40.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail">
+                        <h3>Lunch</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $40.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail">
+                        <h3>Lunch</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $40.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail">
+                        <h3>Lunch</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $40.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail">
+                        <h3>Lunch</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $40.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail">
+                        <h3>Lunch Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $40.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail">
+                        <h3>Lunch Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $40.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail">
+                        <h3>Lunch Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $40.00
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-tab-content" id="appetizers">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/2.jpg" alt="menu item thumbnail">
+                        <h3>Dinner Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $30.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/2.jpg" alt="menu item thumbnail">
+                        <h3>Dinner Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $30.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/2.jpg" alt="menu item thumbnail">
+                        <h3>Dinner Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $30.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/2.jpg" alt="menu item thumbnail">
+                        <h3>Dinner Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $30.00
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-tab-content" id="desserts">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/3.jpg" alt="menu item thumbnail">
+                        <h3>Drink Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $3.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/3.jpg" alt="menu item thumbnail">
+                        <h3>Drink Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $3.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/3.jpg" alt="menu item thumbnail">
+                        <h3>Drink Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $3.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/3.jpg" alt="menu item thumbnail">
+                        <h3>Drink Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $3.00
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-tab-content" id="drinks">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/4.jpg" alt="menu item thumbnail">
+                        <h3>Dessert Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/4.jpg" alt="menu item thumbnail">
+                        <h3>Dessert Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/4.jpg" alt="menu item thumbnail">
+                        <h3>Dessert Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/4.jpg" alt="menu item thumbnail">
+                        <h3>Dessert Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-tab-content" id="kids-menu">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/4.jpg" alt="menu item thumbnail">
+                        <h3>Dessert Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/4.jpg" alt="menu item thumbnail">
+                        <h3>Dessert Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/4.jpg" alt="menu item thumbnail">
+                        <h3>Dessert Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/4.jpg" alt="menu item thumbnail">
+                        <h3>Dessert Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-tab-content" id="a-la-cart">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <!-- <img src="img/menu/1.jpg" alt="menu item thumbnail"> -->
+                        <h3>TACOS AL CARBON</h3>
+                        <p> Shrimp $6.99 ● Calamari $6.99 ● Ground Beef $3.99 ● Shredded Beef $3.99 ● Grilled Chicken $5.99 ● Shredded Chicken $3.99 ● Grilled fish ● Fried Fish $4.99 ● Pork carnitas $3.99 ● Carne Asada (Steak) $5.99 ● Potato $4.99 ● Al pastor
+                            $5.99 ● Vegan BF Crumbles $ 4.99</p>
+                    </div>
+                    <div class="menu-item-price">
+
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/4.jpg" alt="menu item thumbnail">
+                        <h3>Dessert Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/4.jpg" alt="menu item thumbnail">
+                        <h3>Dessert Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/menu/4.jpg" alt="menu item thumbnail">
+                        <h3>Dessert Item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu section end -->
+
+    <!-- testimonials sections start -->
+
+    <section class="testimonials-section sec-padding" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="testimonials">Some Feedback</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="testi-item">
+                    <div class="testi-author">
+                        <div class="testi-author-name">
+                            <h3>Maria R.</h3>
+                            <span>Google Review</span>
+                        </div>
+                        <div class="testi-author-img">
+                            <!-- <img src="img/testimonials/1.jpg" alt="testi author image"> -->
+                        </div>
+                    </div>
+                    <p>We came to this place starving after our 7 mile hike not knowing what to expect. We were very very pleased with the food, the service and the nice clean restaurant. The food was delicious. We'll be coming again when we come back to
+                        Big Bear. So pleased!</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testi-item">
+                    <div class="testi-author">
+                        <div class="testi-author-name">
+                            <h3>Johnny K.</h3>
+                            <span>Yelp Review</span>
+                        </div>
+                        <div class="testi-author-img">
+                            <!-- <img src="img/testimonials/1.jpg" alt="testi author image"> -->
+                        </div>
+                    </div>
+                    <p>Best Mexican food on the Mountain! The albondigas are spectacular as well as the margaritas. You won't find a better or stronger drink. The service is always quick and friendly. I'm going back again this week!</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testi-item">
+                    <div class="testi-author">
+                        <div class="testi-author-name">
+                            <h3>Lori B.</h3>
+                            <span>Facebook Review</span>
+                        </div>
+                        <div class="testi-author-img">
+                            <!-- <img src="img/testimonials/1.jpg" alt="testi author image"> -->
+                        </div>
+                    </div>
+                    <p>How could Sonora Cantina have escaped us for so many years?! What amazing food, flavors you cannot believe! I cannot recommend this place enough and have the Cadillac margarita, one is enough to share, which none of us did and why
+                        I’ll be taking a nap after this! Great food, drinks and service!</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- testimonials sections end -->
+
+    <!-- team section start -->
+    <!-- <section class="team-section sec-padding" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="team">our chefs</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-item">
+                    <img src="img/team/1.jpg" alt="team item">
+                    <div class="team-item-info">
+                        <h3>raj himachal</h3>
+                        <p>head chef</p>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/team/2.jpg" alt="team item">
+                    <div class="team-item-info">
+                        <h3>raj himachal</h3>
+                        <p>head chef</p>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img src="img/team/3.jpg" alt="team item">
+                    <div class="team-item-info">
+                        <h3>raj himachal</h3>
+                        <p>head chef</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- team section end -->
+
+    <!-- footer start -->
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-item">
+                    <h3>Our Location</h3>
+                    <p><a href="https://maps.google.com/maps?q=Sonora%20Cantina,%2041144%20Big%20Bear%20Blvd,%20Big%20Bear%20Lake,%20CA%2092315" target="_blank">41144 Big Bear Blvd, <br> Big Bear Lake, CA 92315</a></p>
+                </div>
+                <div class="footer-item">
+                    <h3>Opening Hours</h3>
+                    <p>Sunday - Thursday 11AM–9PM <br> Friday & Sunday 11AM–10PM</p>
+                    <h6><i>*Please note during slow season our kitchen may close up to an hour early</i></h2>
+                </div>
+                <div class="footer-item">
+                    <h3>contact us</h3>
+                    <p><a href="tel:+19098668202">(909) 866-8202</a></p>
+                    <p><a href="mailto:sonoracantinaoci@yahoo.com">sonoracantinaoci@yahoo.com</a></p>
+                    <div class="social-links">
+                        <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2021 - Designed by <a href="https://ashtinjevans.com/" target="_blank">Ashtin Evans</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <script src="js/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
