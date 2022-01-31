@@ -849,8 +849,9 @@ p {
     }
     .home-section .home-bg {
         background-image: url('../img/home-bg-mobile.jpg');
-        background-size: 100px;
+        background-size: 300px;
         animation: none;
+        background-repeat: no-repeat;
     }
     .menu-item:nth-last-of-type(2):after {
         border-bottom: 2px dashed var(--dark-light);
