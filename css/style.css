@@ -50,6 +50,11 @@ img {
 
 a {
     text-decoration: none;
+    color: var(--white-light);
+}
+
+span {
+    color: var(--white-light);
 }
 
 ul {
@@ -76,6 +81,7 @@ h6 {
 
 p {
     font-size: 16px;
+    color: var(--white-light);
 }
 
 .container {
@@ -367,6 +373,7 @@ p {
 .home-text p {
     margin: 0 0 30px;
     font-size: 16px;
+    color: var(--white-light);
 }
 
 
@@ -424,7 +431,7 @@ p {
     max-width: 400px;
     text-align: center;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+    font-size: 25px;
     font-family: var(--cursive-font);
     color: var(--dark);
     font-weight: bold;
@@ -804,6 +811,7 @@ p {
     padding: 25px 15px;
     font-size: 14px;
     border-top: 1px solid var(--white-light);
+    color: var(--white-light);
 }
 
 .footer .copyright a {
@@ -841,7 +849,7 @@ p {
         width: 100%;
     }
     .home-section .home-bg {
-        width: 10%;
+        width: 100%;
     }
     .menu-item:nth-last-of-type(2):after {
         border-bottom: 2px dashed var(--dark-light);
@@ -858,6 +866,10 @@ p {
     .footer-item:not(:last-child) {
         margin-bottom: 30px;
     }
+    .footer {
+        background-color: var(--dark-light);
+        background-image: none;
+    }
     .about-text {
         text-align: center;
     }
@@ -869,5 +881,8 @@ p {
 @media(max-width:575px) {
     .team-item {
         width: 100%;
+    }
+    .about-text h3 {
+        font-size: 15px;
     }
 }
