@@ -850,7 +850,7 @@ p {
     }
     .home-section .home-bg {
         width: 100%;
-        height: 100%;
+        height: auto;
         animation: none;
     }
     .menu-item:nth-last-of-type(2):after {
@@ -886,7 +886,7 @@ p {
     }
     .home-section .home-bg {
         width: 100%;
-        height: 100%;
+        height: auto;
         animation: none;
     }
     .footer {
