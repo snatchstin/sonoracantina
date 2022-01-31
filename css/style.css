@@ -843,7 +843,7 @@ p {
     }
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
     .home-section .home-bg {
         background-image: url('../img/home-bg-mobile.jpg');
         background-size: 720px;
