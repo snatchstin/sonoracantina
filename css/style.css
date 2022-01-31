@@ -825,15 +825,6 @@ p {
 
 /* responsive */
 
-@media(max-width:1300px) {
-    .home-section .home-bg {
-        background-image: url('../img/home-bg-mobile.jpg');
-        background-size: 720px;
-        animation: none;
-        background-repeat: no-repeat;
-    }
-}
-
 @media(max-width:991px) {
     .testi-item {
         width: calc(50% - 30px);
@@ -844,9 +835,21 @@ p {
     .team-item:not(:last-child) {
         margin-bottom: 75px;
     }
+    .home-section .home-bg {
+        background-image: url('../img/home-bg-mobile.jpg');
+        background-size: 720px;
+        animation: none;
+        background-repeat: no-repeat;
+    }
 }
 
 @media(max-width:767px) {
+    .home-section .home-bg {
+        background-image: url('../img/home-bg-mobile.jpg');
+        background-size: 720px;
+        animation: none;
+        background-repeat: no-repeat;
+    }
     .home-text h1 {
         font-size: 50px;
         line-height: 65px;
