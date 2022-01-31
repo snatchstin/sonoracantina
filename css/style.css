@@ -825,6 +825,15 @@ p {
 
 /* responsive */
 
+@media(max-width:1300px) {
+    .home-section .home-bg {
+        background-image: url('../img/home-bg-mobile.jpg');
+        background-size: 720px;
+        animation: none;
+        background-repeat: no-repeat;
+    }
+}
+
 @media(max-width:991px) {
     .testi-item {
         width: calc(50% - 30px);
@@ -846,12 +855,6 @@ p {
     .about-text,
     .about-img {
         width: 100%;
-    }
-    .home-section .home-bg {
-        background-image: url('../img/home-bg-mobile.jpg');
-        background-size: 700px;
-        animation: none;
-        background-repeat: no-repeat;
     }
     .menu-item:nth-last-of-type(2):after {
         border-bottom: 2px dashed var(--dark-light);
