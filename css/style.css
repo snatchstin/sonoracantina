@@ -825,7 +825,7 @@ p {
 
 /* responsive */
 
-@media(max-width:991px) {
+@media(max-width:1000px) {
     .testi-item {
         width: calc(50% - 30px);
     }
@@ -837,7 +837,7 @@ p {
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:800px) {
     .home-section .home-bg {
         background-image: url('../img/home-bg-mobile.jpg');
         background-size: 720px;
