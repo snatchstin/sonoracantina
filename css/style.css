@@ -882,6 +882,13 @@ p {
     .team-item {
         width: 100%;
     }
+    .home-section .home-bg {
+        width: 100%;
+    }
+    .footer {
+        background-color: var(--dark-light);
+        background-image: none;
+    }
     .about-text h3 {
         font-size: 15px;
     }
