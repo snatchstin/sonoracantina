@@ -342,7 +342,7 @@ p {
     height: 100%;
     width: 100%;
     background-image: url('../img/home-bg2.jpg');
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     z-index: -2;
@@ -563,7 +563,10 @@ p {
 .menu-item:hover .menu-item-price {
     color: var(--white);
 }
+
+
 /* asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf */
+
 
 /* submenu */
 
