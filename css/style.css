@@ -835,12 +835,6 @@ p {
     .team-item:not(:last-child) {
         margin-bottom: 75px;
     }
-    .home-section .home-bg {
-        background-image: url('../img/home-bg-mobile.jpg');
-        background-size: 720px;
-        animation: none;
-        background-repeat: no-repeat;
-    }
 }
 
 @media(max-width:768px) {
